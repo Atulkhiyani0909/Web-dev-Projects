@@ -1,0 +1,344 @@
+*{
+    background-color: black;
+}
+#heading{
+    color: aliceblue;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 70px;
+}
+#input{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 100px;
+    font-size: 80px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+#clear{
+    font-size: 45px;
+    background-color:brown;
+    margin-left: 80px;
+    margin-top: 9px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#clear:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#back{
+    font-size: 40px;
+    background-color:brown;
+    margin-left: 10px;
+    margin-top: 9px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#back:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#percentage{
+    font-size: 45px;
+    background-color:darkgoldenrod;
+    margin-left: 255px;
+    margin-top: 9px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#percentage:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#one{
+    font-size: 45px;
+    width: 100px;
+    background-color:gray;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#one:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#second{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#second:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#third{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#third:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#four{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#four:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#five{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#five:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#six{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#six:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#seven{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#seven:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#eight{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#eight:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#nine{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#nine:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#zero{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#zero:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#point{
+    font-size: 45px;
+    width: 105px;
+    background-color:gray;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#point:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#divide{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#divide:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#multiply{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#multiply:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#sumsub{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#sumsub:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#square{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#square:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#cube{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#cube:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#sub{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#sub:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#sum{
+    font-size: 45px;
+    width: 105px;
+    background-color:darkgoldenrod;
+    margin-left: 15px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#sum:hover{
+    box-shadow: 0 0 6px 6px gray;
+    background-color:whitesmoke;
+    color: black;
+}
+#evaluate{
+    font-size: 45px;
+    width: 480px;
+    background-color:brown;
+    margin-left: 80px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 3px gray;
+    
+}
+#evaluate:hover{
+    box-shadow: 0 0 6px 6px rgb(205, 14, 14);
+    background-color:whitesmoke;
+    color: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="first.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <h1 id="heading">Calculator</h1>
+    <div id="main-box">
+        <form name = "form1">  
+      <input type="text" id="input" name="answer">
+      <button id="clear" value="empty">CE</button>
+      <button id="back"> ⌫</button>
+      <input type = "button" value = "%" onclick = "form1.answer.value += '%' " id="percentage">
+      <input type = "button" value = "1" onclick = "form1.answer.value += '1' " id="one">
+      <input type = "button" value = "2" onclick = "form1.answer.value += '2' "  id="second">
+      <input type = "button" value = "3" onclick = "form1.answer.value += '3' " id="third">
+      <input type = "button" value = "4" onclick = "form1.answer.value += '4' " id="four">
+      <input type = "button" value = "5" onclick = "form1.answer.value += '3' " id="five">
+      <input type = "button" value = "6" onclick = "form1.answer.value += '6' " id="six">
+      <input type = "button" value = "7" onclick = "form1.answer.value += '7' " id="seven">  
+      <input type = "button" value = "8" onclick = "form1.answer.value += '8' " id="eight"> 
+       <input type = "button" value = "9" onclick = "form1.answer.value += '9' " id="nine">
+       <input type = "button" value = "0" onclick = "form1.answer.value += '0' " id="zero">
+       <input type = "button" value = "*" onclick = "form1.answer.value += '*' " id="sumsub">
+       <input type = "button" value = "/" onclick = "form1.answer.value += '/' " id="divide">
+       <input type = "button" value = "x²" onclick = "form1.answer.value +=  'dont use it' " id="square">
+       <input type = "button" value = "x³" onclick = "form1.answer.value += 'Dont use it ' " id="cube">
+       <input type = "button" value = "+" onclick = "form1.answer.value += '+' " id="sum">
+       <input type = "button" value = "-" onclick = "form1.answer.value += '-' " id="sub">
+       <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->
+  <input type = "button" value = "="  id="evaluate"  onclick = "form1.answer.value = eval(form1.answer.value) ">
+     
+
+    </div>
+</body>
+</html>
